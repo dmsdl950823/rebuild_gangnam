@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+@import url(reset.css);
+
+@media all and (max-width:768px) {
+
+.basic {padding-top : 45%; }
+.basic h1 {background-size : 500px; height : 85px; width : 500px; }
+.basic .intro {  margin-top : 50px;}
+
+
+.basic .intro p{font-size : 20px; }
+.basic .intro .big_intro{ font-size : 35px; font-weight: 500 }
+.basic .intro .big_intro span{ width : 45px; height : 35px; background-size:45px; }
+.basic .intro .big_intro span:last-child{background-position : 0 -35px;}
+
+/*메뉴*/
+.menus .top_menu{ top : 5%; left : 45%; margin-left:-320px}
+.menus .top_menu li {width : 160px; }
+
+
+/*사이드메뉴*/
+.sidemenu { top : 5%; right : 5%;}
+.sidemenu .plus_btn{ width : 35px; height : 35px; }
+.sidemenu .plus_btn:before,
+.morebottom .morebtn_wrap .morebtn:before{ width : 35px; height :4px; transform : translateY(15px) }
+.sidemenu .plus_btn:after,
+.morebottom .morebtn_wrap .morebtn:after{ width : 4px; height :35px; transform : translateX(15px)}
+
+    
+.topbtn {bottom : 2.5%; right : 3%; width : 60px; height : 60px; line-height: 56px; }
+    
+    
+.menuback_wrap {width : 40%; overflow:hidden; z-index: 990; display : none; }
+.menu_back {width : 55px; height : 55px;  top : 65px; right : 65px; background: rgba(0,0,0,0.8); border-radius: 50%; z-index: -1; display : none;}
+
+
+.elements {padding: 115px 0 0 8%;}
+    
+.srchfrm { position : absolute; top : 0; left:50px; }
+
+/*센터소개*/
+    
+.other_center {width : 88%;}
+
+
+
+/*강남명소*/
+.story h4 {font-size : 25px; margin-top : 25px;}
+
+.story article {}
+.tourList {width : 100%; margin : 25px auto 30px auto; }
+.tourList li {width : 33.3333%; font-size : 16px; font-weight: 400; height : 40px; line-height: 40px;}
+
+
+.tourPic {overflow :hidden;  height : 350px; width : 100%; /*height : 800*/}
+.tourPic ul {width : 100%; margin:0 auto; padding:0 7.9%; }
+.tourPic ul li {width : 300px; height: 300px; margin-right : 6%; margin-bottom : 100px; position : relative; overflow: hidden;}
+.tourPic ul li a:before {content:''; position : absolute; top : 0; left : 0; background:rgba(0,0,0,0.5); width : 100%; height : 100%; opacity: 0; transition : opacity 0.3s ease; }
+
+.tourPic ul li:nth-of-type(2) { margin-right : 0; }
+.tourPic ul li:nth-of-type(3) { margin-right : 6%; }
+.tourPic ul li:nth-of-type(4) { margin-right : 0; }
+.tourPic ul li:nth-of-type(6) { margin-right : 0; }
+
+.tourPic ul li a span {transition : none}
+
+
+.tourPic ul * { transition:none}
+
+
+
+.morebottom >div {float : left; width : 50vw; height : 20vh; }
+
+.morebottom .morebtn_wrap { top : 60px; right : 50%; width : 35px; height :35px; margin-right : -14px;}
+.morebottom .morebtn_wrap .morebtn {width : 35px; height :35px; }
+
+
+
+
+/*도보관광*/
+.walkTour h2 { font-size : 55px; padding-top : 120px;}
+.walkTour h4 { font-size : 20px; margin-top : 18px;}
+
+.tour-course {width : 100%;}
+
+.tour_explain {width : 100%; margin-top : 25px; padding : 0 5%;}
+.tour_explain >p { margin-bottom : 15px;}
+.tour_explain strong { font-size : 18px;}
+.tour_explain ul { padding-left : 15px; margin-top : 10px;}
+.tour_explain ul li {line-height : 25px; }
+.tour_explain ul li span{ margin-left : 5px;}
+
+
+
+.tourImg {width : 100%; height : 250px; }
+.tourImg ul{ width : 60%; margin:0 auto;}
+.tourImg ul li{width : 30px; height : 30px;} 
+
+.tourImg ul li:nth-of-type(1){ top: 75px ; left : 0px; }
+.tourImg ul li:nth-of-type(2){ top: 75px ; left : 195px; }
+.tourImg ul li:nth-of-type(3){ top: 75px ; left : 388px; }
+.tourImg ul li:nth-of-type(4){ top: 170px ; left : 0px; }
+.tourImg ul li:nth-of-type(5){ top: 170px ; left : 195px; }
+.tourImg ul li:nth-of-type(6){ top: 170px ; left : 388px; }
+
+.tourImg ul li:nth-of-type(1) .text,
+.tourImg ul li:nth-of-type(2) .text,
+.tourImg ul li:nth-of-type(3) .text{top:-60px;left:-60px;}
+.tourImg ul li:nth-of-type(4) .text,
+.tourImg ul li:nth-of-type(5) .text,
+.tourImg ul li:nth-of-type(6) .text{top:40px;left:-60px;}
+
+
+.backline .line { width : 380px;height : 15px;border:5px #62a87a solid; }
+.backline .line:first-child{top: 82px; left :175px;}
+.backline .line:last-child {top: 176px; left :175px;}
+.backline .vertical{width : 15px;height : 106px; top: 90px; left :550px;}
+
+
+    
+    
+/*footer*/
+    
+.footer {padding:15px 5%}
+    
+.lft {width : 66.875%; }
+.lft ul {}
+.lft ul li { margin-right : 2%}
+.lft ul li:nth-of-type(1) {width : 35%}
+.lft ul li:nth-of-type(2) {width : 21%}
+.lft ul li:nth-of-type(3) {width : 40%; margin : 0;}
+.lft ul li .licont { height : 60px; margin-top : 25px; font-size : 10px; }
+.lft ul li .onestop { height : 85px; font-size : 0;}
+
+
+
+
+.rght { width : 33.125%; padding-top : 25px;}
+.rght .other_intsitut { width : 160px; float : left; margin-left : 28%;}
+
+    
+.rght .other_intsitut > span{ width : 80px; height : 82px;}
+.rght .other_intsitut > span:first-child,
+.rght .other_intsitut > span:last-child{ background-size : 100%;}
+
+
+
+.copy { font-size : 10px; margin-top : 30px;}
+
+
+    
+}
